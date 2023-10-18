@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+body{
+    width: 375px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    border: 1px solid white;
+}
+.logo{
+    font-size:18px ;
+    font-weight:700;
+    line-height: 20px;
+    color: #6070FF;
+    margin-left: 12px;
+}
+menu{
+    margin-right: 24px;
+}
+section{
+    height:604px;
+    background-image: url(/pics/header-shapes\ mobile.svg);
+    background-image: url(/pics/header-shapes\ mobile@2x.svg);
+    border: 1px solid white;
+}
+section h2{
+    height:150px;
+    padding: 114px, 24px, 114px, 24px;
+    margin-left: 20px;
+    margin-right: 36px;
+    font-size:40px;
+    font-weight:700;
+    line-height:62px;
+    margin-top: 92px;
+    color:#172B4D;
+}
+section p{
+        height: 146px;
+        font-size:16px;
+        font-weight:400;
+        line-height:20px;
+        margin-left:20px;
+        margin-top: 40px;
+        margin-right:20px;
+        color: #344563;
+}
+.connect{
+        color: #818eff;
+        height: 24px;
+        font-size:16px;
+        font-weight:500;
+        margin-left: 20px;
+        margin-top: -29px;
+        margin-top: 10px;
+}
+.ficons{
+        margin-left: 20px;
+        width: 170.17px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
